@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.6</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Changed deisgn, imported webdriver.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Selenium Helpers Het CAK</tags>
+  </metadata>
+</package>
