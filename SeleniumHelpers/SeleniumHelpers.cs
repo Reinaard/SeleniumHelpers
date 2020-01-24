@@ -7,7 +7,7 @@ namespace SeleniumHelpers
 {
     public static class SeleniumHelpers
     { 
-        public static IWebDriver Webdriver { get; set; }
+        public static IWebDriver Webdriver { get; set;}
 
         public static void Setup(IWebDriver driver)
         {
