@@ -28,6 +28,7 @@ bld/
 #wwwroot/
 
 # MSTest test Results
+![Oo]bj/Release/UnitTests.dll
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 

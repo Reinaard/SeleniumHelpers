@@ -93,6 +93,12 @@ namespace SeleniumHelpers
             Assert.IsTrue(null == SeleniumHelpers.GetWebElementByText("non-existing text"));
         }
 
+        [TestMethod]
+        public void SelectDropdownValue_should_work()
+        {
+            SeleniumHelpers.SelectDropdownValue("valid_id", "dropdown_value");
+        }
+
         public static void Main(string[] args)
         {
             Console.WriteLine("Starting unit tests");

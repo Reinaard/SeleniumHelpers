@@ -50,6 +50,12 @@ namespace SeleniumHelpers
             selectElement.SelectByText(valueToSelect);
         }
 
+        public static string GetSelectedFromDropdown(string dropdownId)
+        {
+            var selectElement = new SelectElement(GetWebElement(dropdownId));
+            return selectElement.SelectedOption.Text;
+        }
+
         public static IWebElement GetWebElement(string identifier, int timeout = 3000)
         {
             TurnOnWait(timeout);
@@ -91,7 +97,7 @@ namespace SeleniumHelpers
 
         public static bool IsXpath(string identifier)
         {
-            return identifier.StartsWith("//") || identifier.StartsWith(".//");
+            return identifier.StartsWith("//") || identifier.StartsWith(".//") || identifier.StartsWith("(//");
         }
     }
 }

@@ -2,14 +2,17 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>1.0.6</version>
+    <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
+    <licenseUrl>http://localhost</licenseUrl>
+    <projectUrl>https://github.com/Reinaard/SeleniumHelpers</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/wndrr.selenium.utils/1.2.1/icon</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Changed deisgn, imported webdriver.</releaseNotes>
+    <releaseNotes>Removed some dependancies</releaseNotes>
     <copyright>Copyright 2020</copyright>
-    <tags>Selenium Helpers Het CAK</tags>
+    <tags>v1.0.0</tags>
   </metadata>
 </package>
